@@ -1,6 +1,5 @@
 # autoverify
 
-# Glenn's notes
 This bootstrap site was copied from: https://getbootstrap.com/docs/4.0/examples/product/
 
 ## Project setup

@@ -25,7 +25,7 @@
           <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
         </svg>
       </a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+      <a class="py-2 d-none d-md-inline-block tour-link" href="#">Tour</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
@@ -42,6 +42,8 @@
   }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .tour-link {
+    color: red;
+  }
 </style>

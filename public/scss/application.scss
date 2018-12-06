@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+/* Base Styles */
+@import
+'base/colors',
+'base/fonts',
+'base/variables';
+
+/* Component Styles */
+@import
+'components/footer';
+
+/* Util Styles */
+@import
+'utils/helpers',
+'utils/mixins';
+
+/* Page Styles */
+@import
+'pages/home',
+'pages/about',
+'pages/customers',
+'pages/tools',
+'pages/contact';

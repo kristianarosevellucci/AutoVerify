@@ -4,232 +4,92 @@
     <div
       class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
     >
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">That Car Place</h1>
-        <p class="lead font-weight-normal">
-          And an even wittier subheading to boot. Jumpstart your marketing
-          efforts with this example based on Apple's marketing pages.
-        </p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div
-        class="product-device product-device-2 box-shadow d-none d-md-block"
-      ></div>
+        <h1>That Car Place</h1>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+    <introduction
+      introductionText="Kal looked to Mobials' suite of tools to help him achieve his dream of 'an Amazon-like experience', where consumers could do all their pre-purchase research online, from reviews to values to credit approval, and even complete the sale."
+    />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+    <left-text-block class="top-block"
+      inlineTestimonial1="Testimonial 1"
+      textBlock1="Text block 1"
+      inlineTestimonial2="Testimonial 2"
+      textBlock2="Text block 2"
+      linkName="Home"
+      imageSrc="that-car-place-1.png"
+      imageAlt="Screens"
+    />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+    <right-text-block class="bottom-block"
+      inlineTestimonial1="Testimonial 1"
+      textBlock1="Text block 1"
+      inlineTestimonial2="Testimonial 2"
+      textBlock2="Text block 2"
+      linkName="Home"
+      imageSrc="that-car-place-2.png"
+      imageAlt="Screens"
+    />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+    <statistics
+      statNumber1="75"
+      statNumber2="14"
+      statNumber3="168"
+      statTitle1="Screens"
+      statTitle2="Screens"
+      statTitle3="Screens"
+      statisticsSubtitle="Screens"
+      statisticsTitle="Screens"
+    />
 
+    <ctaBanner
+      ctaText="ctaText"
+      linkName="linkName"
+    />
+
+    <MoreCaseStudies
+    sectionTitle="Read More Case Studies"
+    imageSrc1="case-study-placeholder.png"
+    imageAlt1="Screens"
+    imageSrc2="case-study-placeholder.png"
+    imageAlt2="Screens"
+    imageSrc3="case-study-placeholder.png"
+    imageAlt3="Screens"
+    imageSrc4="case-study-placeholder.png"
+    imageAlt4="Screens"
+    wheatonChevrolet="Wheaton Chevrolet"
+    thatCarPlace="That Car Place"
+    palladinoHonda="Palladino Honda"
+    goAuto="Go Auto Outlets"
+    viewCaseStudy="View Case Study"
+    />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navigation from './../components/navigation';
+import Introduction from './../components/introduction';
+import LeftTextBlock from './../components/left-text-block';
+import RightTextBlock from './../components/right-text-block';
+import Statistics from './../components/statistics';
+import CtaBanner from './../components/cta-banner';
+import MoreCaseStudies from './../components/more-case-studies';
 import Footer from './../components/footer';
 
 export default {
   name: "that-car-place",
   components: {
     Navigation,
-    Footer
+    Footer,
+    Introduction,
+    LeftTextBlock,
+    RightTextBlock,
+    Statistics,
+    CtaBanner,
+    MoreCaseStudies,
   }
 };
 </script>
 
-<style>
-.container {
-  max-width: 960px;
-}
-
-/*
-   * Custom translucent site header
-   */
-
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color 0.15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-/*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
-/*
-   * Extra utilities
-   */
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-  }
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-</style>
+<style></style>

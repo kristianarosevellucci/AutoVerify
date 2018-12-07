@@ -24,5 +24,6 @@ export default {
 
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
+@import "../public/scss/application.scss";
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,600,700|Montserrat:400,700,800');
 </style>

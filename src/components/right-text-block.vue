@@ -5,20 +5,17 @@
         <div class="col-md-6">
           <div class="image-container">
             <img
-              :src="require(`@/../public/img/${imageSrc}`)"
+              :src="require(`@/../public/img/case-studies/${imageSrc}`)"
               :alt="imageAlt"
               class="img-responsive"
             />
           </div>
         </div>
         <div class="offset-md-1 col-md-5">
-          <div class="image-container">
-            <p class="text-block__inline-testimonial">{{inlineTestimonial1}}</p>
-            <p class="text-block__text">{{textBlock1}}</p>
-            <p class="text-block__inline-testimonial">{{inlineTestimonial2}}</p>
-            <p class="text-block__text">{{textBlock2}}</p>
-            <router-link classes=“btn-primary” to=“/”>{{linkName}}</router-link>
-          </div>
+          <p class="text-block__inline-testimonial">{{inlineTestimonial1}}</p>
+          <p class="text-block__text">{{textBlock1}}</p>
+          <p class="text-block__inline-testimonial">{{inlineTestimonial2}}</p>
+          <p class="text-block__text">{{textBlock2}}</p>
         </div>
       </div>
     </div>
@@ -63,4 +60,7 @@
 
 <style lang="scss" scoped>
   @import "../../public/scss/application.scss";
+  p {
+    font-size: 14px;
+  }
 </style>

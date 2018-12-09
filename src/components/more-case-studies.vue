@@ -12,7 +12,7 @@
               <router-link class=“more-case-studies__item” to=“/”>
                 <div class="more-case-studies__img">
                   <img
-                    :src="require(`@/../public/img/${imageSrc1}`)"
+                    :src="require(`@/../public/img/case-studies/${imageSrc1}`)"
                     :alt="imageAlt1"
                     class="img-responsive"
                   />
@@ -27,7 +27,7 @@
               <router-link class=“more-case-studies__item” to=“/”>
                 <div class="more-case-studies__img">
                   <img
-                    :src="require(`@/../public/img/${imageSrc2}`)"
+                    :src="require(`@/../public/img/case-studies/${imageSrc2}`)"
                     :alt="imageAlt2"
                     class="img-responsive"
                   />
@@ -42,7 +42,7 @@
               <router-link class=“more-case-studies__item” to=“/”>
                 <div class="more-case-studies__img">
                   <img
-                    :src="require(`@/../public/img/${imageSrc3}`)"
+                    :src="require(`@/../public/img/case-studies/${imageSrc3}`)"
                     :alt="imageAlt3"
                     class="img-responsive"
                   />
@@ -57,7 +57,7 @@
               <router-link class=“more-case-studies__item” to=“/”>
                 <div class="more-case-studies__img">
                   <img
-                    :src="require(`@/../public/img/${imageSrc1}`)"
+                    :src="require(`@/../public/img/case-studies/${imageSrc4}`)"
                     :alt="imageAlt1"
                     class="img-responsive"
                   />

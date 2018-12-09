@@ -1,4 +1,33 @@
 .cta-banner {
-  background: $yellow;
   padding: 150px;
+}
+
+.cta-banner__palladino {
+  background: $maroon;
+  h2 {
+    color: $white;
+  }
+  .btn-primary {
+    background: $white;
+    color: $maroon;
+  }
+}
+
+.cta-banner__go-auto {
+  background: $pink;
+}
+
+.cta-banner__car-place {
+  background: $yellow;
+}
+
+.cta-banner__wheaton {
+  background: $blue;
+  h2 {
+    color: $white;
+  }
+  .btn-primary {
+    background: $white;
+    color: $maroon;
+  }
 }

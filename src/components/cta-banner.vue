@@ -5,7 +5,7 @@
           <div class="col-sm-12">
             <h2>{{ctaText}}</h2>
             <br>
-            <router-link class="btn-primary" to=“/”>{{linkName}}</router-link>
+            <router-link class="btn-primary" to=“/contact”>{{linkName}}</router-link>
           </div>
         </div>
       </div>

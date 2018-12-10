@@ -2,8 +2,8 @@
   <Page>
 
   <tools-hero
-    imageSrc="credit-hero.png"
-    imageAlt="AutoVerify Insurance"
+    imageSrc="totalloss-hero.png"
+    imageAlt="AutoVerify Total Loss"
     toolSubtitle="AutoVerify"
     toolTitle="Total Loss"
     toolDescription="Earn quality leads from customers that have wrecked a car and need a new one."

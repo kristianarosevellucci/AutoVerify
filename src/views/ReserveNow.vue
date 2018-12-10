@@ -2,8 +2,8 @@
   <Page>
 
   <tools-hero
-    imageSrc="credit-hero.png"
-    imageAlt="AutoVerify Insurance"
+    imageSrc="insurance-hero.png"
+    imageAlt="AutoVerify Reserve Now"
     toolSubtitle="AutoVerify"
     toolTitle="Reserve Now"
     toolDescription="Customer reserves the vehicle they want, you get the lead and the deposit."

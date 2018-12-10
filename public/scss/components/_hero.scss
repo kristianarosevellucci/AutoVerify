@@ -1,16 +1,41 @@
-.tools-hero__img {
+.tools-hero__img-container {
   background: $maroon;
   padding: 50px 100px 0 50px;
+  @media screen and (max-width: 768px){
+      padding: 0;
+  }
+}
+
+.tools-hero__img {
+  margin-bottom: -40px;
+  @media screen and (max-width: 768px){
+    padding: 50px 25px 0;
+    margin-bottom: -40px;
+  }
 }
 
 .tools-hero {
   border-left: 15px solid $maroon;
+  @media screen and (max-width: 768px){
+    border-left: none;
+  }
 }
 
 .tools-hero__text {
   padding: 25% 50px 0 100px;
+  @media screen and (max-width: 1000px){
+    h1 {
+      font-size: 42px;
+    }
+  }
+  @media screen and (max-width: 850px){
+    padding: 50px;
+  }
 }
 
 .tools-hero__screen {
   margin-bottom: -50px;
+  @media screen and (max-width: 768px){
+    margin: -50px 0 0 0;
+  }
 }

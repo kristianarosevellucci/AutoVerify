@@ -2,8 +2,8 @@
   <Page>
 
   <tools-hero
-    imageSrc="credit-hero.png"
-    imageAlt="AutoVerify Insurance"
+    imageSrc="reviews-hero.png"
+    imageAlt="AutoVerify Reviews"
     toolSubtitle="AutoVerify"
     toolTitle="Reviews"
     toolDescription="Manage your online reputation, reduce costs and be chosen."

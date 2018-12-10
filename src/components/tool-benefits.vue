@@ -3,35 +3,35 @@
     <section class="tool-benefits">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img
               :src="require(`@/../public/img/tools/${imageSrc}`)"
               :alt="imageAlt"
               class="img-responsive"
             />
           </div>
-          <div class="offset-sm-1 col-sm-8">
+          <div class="offset-md-1 col-md-8">
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-md-12">
                 <h2 class="tool-benefits__title">{{benefitsTitle}}</h2>
               </div>
             </div>
             <div class="row tool-benefits__content">
-              <div class="col-sm-6">
+              <div class="col-md-6">
                 <h3 class="tool-benefits__subtitle"><span class="tool-benefits__number">{{benefitsNumber1}}</span>{{benefitsTitle1}}</h3>
                 <p class="tool-benefits__text">{{benefitsText1}}</p>
               </div>
-              <div class="col-sm-6">
+              <div class="col-md-6">
                 <h3 class="tool-benefits__subtitle"><span class="tool-benefits__number">{{benefitsNumber2}}</span>{{benefitsTitle2}}</h3>
                 <p class="tool-benefits__text">{{benefitsText2}}</p>
               </div>
             </div>
             <div class="row tool-benefits__content pt-75">
-              <div class="col-sm-6">
+              <div class="col-md-6">
                 <h3 class="tool-benefits__subtitle"><span class="tool-benefits__number">{{benefitsNumber3}}</span>{{benefitsTitle3}}</h3>
                 <p class="tool-benefits__text">{{benefitsText3}}</p>
               </div>
-              <div class="col-sm-6">
+              <div class="col-md-6">
                 <h3 class="tool-benefits__subtitle"><span class="tool-benefits__number">{{benefitsNumber4}}</span>{{benefitsTitle4}}</h3>
                 <p class="tool-benefits__text">{{benefitsText4}}</p>
               </div>

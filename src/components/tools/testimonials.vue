@@ -2,7 +2,7 @@
   <section class="testimonial-block text-center">
     <div class="container-fluid">
       <div class="row">
-        <div class="offset-2 col-sm-8">
+        <div class="offset-sm-2 col-sm-8">
           <p class="testimonial">{{quote}}</p>
           <span class="divider"></span>
           <p class="testimonial-author">{{author}}</p>

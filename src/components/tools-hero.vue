@@ -3,7 +3,7 @@
 <section class="tools-hero">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-md-5">
         <div class="tools-hero__text">
           <p class="subtitle">{{toolSubtitle}}</p>
           <h1>{{toolTitle}}</h1>
@@ -11,11 +11,11 @@
           <router-link class="btn-primary" to=“/”>{{linkName}}</router-link>
         </div>
       </div>
-      <div class="col-sm-7 tools-hero__img">
+      <div class="col-md-7 tools-hero__img-container">
         <img
           :src="require(`@/../public/img/tools/${imageSrc}`)"
           :alt="imageAlt"
-          class="img-responsive"
+          class="img-responsive tools-hero__img"
         />
       </div>
     </div>

@@ -2,8 +2,8 @@
   <Page>
 
   <tools-hero
-    imageSrc="credit-hero.png"
-    imageAlt="AutoVerify Insurance"
+    imageSrc="tradein-hero.png"
+    imageAlt="AutoVerify Trade-in"
     toolSubtitle="AutoVerify"
     toolTitle="Trade-in"
     toolDescription="More leads. Better leads. Even on mobile."

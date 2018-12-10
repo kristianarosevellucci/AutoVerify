@@ -2,7 +2,7 @@
   <Page>
 
   <tools-hero
-    imageSrc="credit-hero.png"
+    imageSrc="insurance-hero.png"
     imageAlt="AutoVerify Insurance"
     toolSubtitle="AutoVerify"
     toolTitle="Insurance"

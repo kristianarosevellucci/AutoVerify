@@ -2,15 +2,15 @@
   <section class="tool-summary">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <img
             :src="require(`@/../public/img/tools/${imageSrc}`)"
             :alt="imageAlt"
             class="img-responsive"
           />
         </div>
-        <div class="offset-sm-1 col-sm-5">
-          <h2>{{summaryTitle}}</h2>
+        <div class="offset-md-1 col-md-5">
+          <h2 class="tool-summary__title">{{summaryTitle}}</h2>
           <ul class="tool-summary__list">
             <li>{{bullet1}}</li>
             <li>{{bullet2}}</li>

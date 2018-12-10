@@ -1,79 +1,58 @@
 <template>
     <Page>
-    <section class="hero">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-5">
-            <p>AutoVerify</p>
-            <h1>Accident Check</h1>
-            <p>Dealerships asked us to help them reduce costs. We listened.</p>
-            <a href="#" class="btn-primary">Watch Demo</a>
-          </div>
-          <div class="col-sm-7">
-            <img src="#" alt="Screen">
-          </div>
-        </div>
-      </div>
 
-    </section>
+    <tools-hero
+      imageSrc="credit-hero.png"
+      imageAlt="AutoVerify Credit"
+      toolSubtitle="AutoVerify"
+      toolTitle="Credit"
+      toolDescription="Dealerships asked us to help them reduce costs. We listened."
+      linkName="Watch Demo"
+      class="tools-hero--maroon"
+    />
 
     <introduction
       introductionText="Reduce your monthly spend by only running vehicle history reports on the vehicles that need it, not the ones that don’t. Only 30% of vehicles have accident history. Why buy costly history reports for 100% of your vehicles?"
     />
 
-    <section class="how-it-helps">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-3">
-            <img src="#" alt="Featured Image">
-          </div>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2>Accident Check Helps You:</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <h3><span class="how-it-helps__number">01</span>Slash Costs</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <statistics
-      statNumber1="30"
-      statNumber2="5"
-      statNumber3="189"
-      statTitle1="Credit Leads"
-      statTitle2="Insurance Leads"
-      statTitle3="Trade-in Leads"
-      statisticsTitle="Monthly Average Lead Generation"
+    <tool-benefits
+      imageSrc="help-placeholder.png"
+      imageAlt="Screens"
+      benefitsTitle="AutoVerify Credit Helps You:"
+      benefitsNumber1="01"
+      benefitsTitle1="Slash Costs"
+      benefitsText1="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsNumber2="02"
+      benefitsTitle2="Slash Costs"
+      benefitsText2="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsNumber3="03"
+      benefitsTitle3="Slash Costs"
+      benefitsText3="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsNumber4="04"
+      benefitsTitle4="Slash Costs"
+      benefitsText4="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
     />
 
-    <ctaBanner
-      ctaText="Want to learn more about this story?"
-      linkName="Contact Us"
-      class="cta-banner__palladino"
+    <tool-summary
+      imageSrc="reports-placeholder.png"
+      imageAlt="Screens"
+      summaryTitle="It's true-- there's more to a history report than accident data. But..."
+      summaryText="Why are you paying for information that's available for free?"
+      bullet1="Recall status is available free online"
+      bullet2="Odometer rollbacks can be detected by your service department"
+      bullet3="Do buyers really care about registration history?"
     />
 
-    <MoreCaseStudies
-    sectionTitle="Read More Case Studies"
-    imageSrc1="related-cases-wheaton.png"
-    imageAlt1="Screens"
-    imageSrc2="related-cases-palladino.png"
-    imageAlt2="Screens"
-    imageSrc3="related-cases-goauto.png"
-    imageAlt3="Screens"
-    imageSrc4="related-cases-carplace.png"
-    imageAlt4="Screens"
-    wheatonChevrolet="Wheaton Chevrolet"
-    thatCarPlace="That Car Place"
-    palladinoHonda="Palladino Honda"
-    goAuto="Go Auto Outlets"
-    viewCaseStudy="View Case Study"
+    <testimonials
+      quote="“The suite of products allows us to connect with our customers more easily and simplify their shopping experience!”"
+      author="Susan Gubasta"
+      authorJob="President, TADA, Dealer Principal, Mississauga Toyota"
+    />
+
+    <tools-cta-banner
+      ctaText="Want to see it in action?"
+      linkName="Watch Demo"
+      class="cta-banner__maroon"
     />
 
     </Page>
@@ -88,19 +67,33 @@ import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
 import CtaBanner from './../components/cta-banner';
 import MoreCaseStudies from './../components/more-case-studies';
+import ToolSummary from './../components/tool-summary';
+import ToolBenefits from './../components/tool-benefits';
+import ToolsHero from './../components/tools-hero';
+import ToolsCtaBanner from './../components/tools/tools-cta-banner';
+import Testimonials from './../components/tools/testimonials';
 
 export default {
-  name: "contact",
+  name: "Credit",
   components: {
     Introduction,
-    LeftTextBlock,
-    RightTextBlock,
-    Statistics,
     CtaBanner,
-    MoreCaseStudies,
-    Page
+    Page,
+    ToolsCtaBanner,
+    Testimonials,
+    ToolSummary,
+    ToolBenefits,
+    ToolsHero
   }
 };
 </script>
 
-<style></style>
+<style lang="scss">
+  .divider {
+    height: 5px;
+    width: 50px;
+    background: #E6E6E6;
+    display: block;
+    margin: 30px auto;
+  }
+</style>

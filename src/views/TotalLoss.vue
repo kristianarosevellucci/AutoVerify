@@ -1,298 +1,99 @@
 <template>
-  <div>
-    <navigation />
-    <div
-      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
-    >
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">TotalLoss</h1>
-        <p class="lead font-weight-normal">
-          And an even wittier subheading to boot. Jumpstart your marketing
-          efforts with this example based on Apple's marketing pages.
-        </p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div
-        class="product-device product-device-2 box-shadow d-none d-md-block"
-      ></div>
-    </div>
+  <Page>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+  <tools-hero
+    imageSrc="totalloss-hero.png"
+    imageAlt="AutoVerify Total Loss"
+    toolSubtitle="AutoVerify"
+    toolTitle="Total Loss"
+    toolDescription="Earn quality leads from customers that have wrecked a car and need a new one."
+    linkName="Watch Demo"
+    class="tools-hero--yellow"
+  />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+  <introduction
+    introductionText="Provide them with documentation to use in their insurance negotiations and build trust by helping them get more money for their wrecked car."
+    />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+  <tool-benefits
+    imageSrc="help-placeholder.png"
+    imageAlt="Screens"
+    benefitsTitle="AutoVerify Total Loss Helps You:"
+    benefitsNumber1="01"
+    benefitsTitle1="High-Quality Leads"
+    benefitsText1="A person with a vehicle damaged beyond repair needs a replacement vehicle, and they need it now. Total Loss Reports give you a high-converting lead that is ready to buy. "
+    benefitsNumber2="02"
+    benefitsTitle2="Build Trust"
+    benefitsText2="Be the one who gives them peace-of-mind about their insurance offer, and let them know they can trust you to help them through the purchase of a new vehicle."
+    benefitsNumber3="03"
+    benefitsTitle3="Get Them More Money"
+    benefitsText3="Help customers get more for their wrecked car, so they turn to you for a replacement."
+    benefitsNumber4="04"
+    benefitsTitle4="Optimized for Mobile"
+    benefitsText4="AutoVerify tools are designed and optimized for mobile, so when your customers get their information, it’s formatted to fit the device they’re using."
+  />
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
+  <tool-summary
+    imageSrc="reports-placeholder.png"
+    imageAlt="Screens"
+    summaryTitle="It's true-- there's more to a history report than accident data. But..."
+    summaryText=" "
+    bullet1="Customer wrecks their car and receives a settlement offer"
+    bullet2="They receive a Total Loss Report"
+    bullet3="They use report in settlement negotiations and get more money"
+  />
 
-    <footer class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="d-block mb-2"
-          >
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
-            <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
-            <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
-            <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
-            <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
-            <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
-          </svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </div>
+  <testimonials
+    quote="“Mobials has been very prompt at getting things done and has been very helpful anytime I have had questions or need anything done at all.  Super easy to work with.”"
+    author="Hutch Orr"
+    authorJob="Auto Worx"
+  />
+
+  <tools-cta-banner
+    ctaText="Want to see it in action?"
+    linkName="Watch Demo"
+    class="cta-banner__yellow"
+  />
+
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navigation from './../components/navigation'
+import Page from './../components/page';
+import Introduction from './../components/introduction';
+import LeftTextBlock from './../components/left-text-block';
+import RightTextBlock from './../components/right-text-block';
+import Statistics from './../components/statistics';
+import CtaBanner from './../components/cta-banner';
+import MoreCaseStudies from './../components/more-case-studies';
+import ToolSummary from './../components/tool-summary';
+import ToolBenefits from './../components/tool-benefits';
+import ToolsHero from './../components/tools-hero';
+import ToolsCtaBanner from './../components/tools/tools-cta-banner';
+import Testimonials from './../components/tools/testimonials';
 
 export default {
-  name: "contact",
+  name: "TotalLoss",
   components: {
-    Navigation
+    Introduction,
+    CtaBanner,
+    Page,
+    ToolsCtaBanner,
+    Testimonials,
+    ToolSummary,
+    ToolBenefits,
+    ToolsHero
   }
 };
 </script>
 
 <style>
-.container {
-  max-width: 960px;
-}
-
-/*
-   * Custom translucent site header
-   */
-
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color 0.15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-/*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
-/*
-   * Extra utilities
-   */
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
+  .divider {
+    height: 5px;
+    width: 50px;
+    background: #E6E6E6;
+    display: block;
+    margin: 30px auto;
   }
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
 </style>

@@ -42,7 +42,7 @@
     <ctaBanner
       ctaText="Want to learn more about this story?"
       linkName="Contact Us"
-      class="cta-banner__wheaton"
+      class="cta-banner__blue"
     />
 
     <MoreCaseStudies

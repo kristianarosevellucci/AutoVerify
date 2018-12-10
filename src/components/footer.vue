@@ -1,14 +1,14 @@
 <template>
     <footer class="container-fluid py-4">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <p>{{poweredBy}}<a href="www.mobials.com" target="blank">Mobials</a></p>
         </div>
-        <div class="col-sm-6 text-center">
+        <div class="col-md-6 text-center footer__contact">
           <p>{{footerCenterText}}</p>
         </div>
-        <div class="col-sm-3">
-          <p class="text-right">{{copyRight}}</p>
+        <div class="col-md-3">
+          <p class="footer__copyright">{{copyRight}}</p>
         </div>
       </div>
     </footer>

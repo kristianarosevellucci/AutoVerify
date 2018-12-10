@@ -21,7 +21,7 @@
         <div class="container-fluid">
           <div class="navigation-content">
             <div class="row">
-              <div class="col-sm-5">
+              <div class="hidden-xs hidden-sm col-md-5">
                 <h2>Reduce Costs. Increase Sales. Satisfy Customers.</h2>
                 <router-link exact to=“/”>LinkedIn</router-link>
                 <router-link exact to=“/”>Facebook</router-link>
@@ -29,7 +29,7 @@
                 <router-link exact to=“/”>Youtube</router-link>
                 <router-link exact to=“/”>Twitter</router-link>
               </div>
-              <div class="offset-sm-1 col-sm-2">
+              <div class="col-sm-4 offset-md-1 col-md-2">
                 <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">Home</router-link>
                 <div class="navigation__link-group">
                   <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">Products</router-link>
@@ -44,7 +44,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-4 col-md-2">
                 <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">How It Works</router-link>
                 <div class="navigation__link-group">
                   <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">Pricing</router-link>
@@ -59,7 +59,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-4 col-md-2">
                   <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">About Us</router-link>
                 <div class="navigation__link-group">
                   <router-link exact to=“/” @click.native="$emit('closeNavigation')" class="navigation__section-title">Company</router-link>

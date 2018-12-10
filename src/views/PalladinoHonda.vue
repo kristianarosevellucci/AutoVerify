@@ -36,7 +36,7 @@
     <ctaBanner
       ctaText="Want to learn more about this story?"
       linkName="Contact Us"
-      class="cta-banner__palladino"
+      class="cta-banner__maroon"
     />
 
     <MoreCaseStudies

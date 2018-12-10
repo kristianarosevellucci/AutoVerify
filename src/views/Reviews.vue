@@ -8,6 +8,7 @@
     toolTitle="Reviews"
     toolDescription="Manage your online reputation, reduce costs and be chosen."
     linkName="Watch Demo"
+    class="tools-hero--pink"
   />
 
   <introduction
@@ -53,7 +54,7 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__palladino"
+    class="cta-banner__pink"
   />
 
   </Page>

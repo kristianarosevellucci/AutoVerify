@@ -8,6 +8,7 @@
     toolTitle="Reserve Now"
     toolDescription="Customer reserves the vehicle they want, you get the lead and the deposit."
     linkName="Watch Demo"
+    class="tools-hero--blue"
   />
 
   <introduction
@@ -51,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__palladino"
+    class="cta-banner__blue"
   />
 
   </Page>

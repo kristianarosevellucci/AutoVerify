@@ -8,6 +8,7 @@
     toolTitle="Total Loss"
     toolDescription="Earn quality leads from customers that have wrecked a car and need a new one."
     linkName="Watch Demo"
+    class="tools-hero--yellow"
   />
 
   <introduction
@@ -51,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__palladino"
+    class="cta-banner__yellow"
   />
 
   </Page>

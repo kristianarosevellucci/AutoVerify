@@ -8,6 +8,7 @@
     toolTitle="Insurance"
     toolDescription="Generate quality leads and eliminate 'be-backs' by supporting your customer's research."
     linkName="Watch Demo"
+    class="tools-hero--yellow"
   />
 
   <introduction
@@ -51,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__palladino"
+    class="cta-banner__yellow"
   />
 
   </Page>

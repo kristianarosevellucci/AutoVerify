@@ -1,8 +1,35 @@
 .tools-hero__img-container {
-  background: $maroon;
   padding: 50px 100px 0 50px;
   @media screen and (max-width: 768px){
       padding: 0;
+  }
+}
+
+.tools-hero--maroon {
+  border-left: 15px solid $maroon;
+  .tools-hero__img-container {
+    background: $maroon;
+  }
+}
+
+.tools-hero--pink {
+  border-left: 15px solid $pink;
+  .tools-hero__img-container {
+    background: $pink;
+  }
+}
+
+.tools-hero--yellow {
+  border-left: 15px solid $yellow;
+  .tools-hero__img-container {
+    background: $yellow;
+  }
+}
+
+.tools-hero--blue {
+  border-left: 15px solid $blue;
+  .tools-hero__img-container {
+    background: $blue;
   }
 }
 
@@ -15,7 +42,6 @@
 }
 
 .tools-hero {
-  border-left: 15px solid $maroon;
   @media screen and (max-width: 768px){
     border-left: none;
   }

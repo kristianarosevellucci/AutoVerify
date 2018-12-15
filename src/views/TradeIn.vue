@@ -8,7 +8,7 @@
     toolTitle="Trade-in"
     toolDescription="More leads. Better leads. Even on mobile."
     linkName="Watch Demo"
-    class="tools-hero--pink"
+    class="tools-hero--maroon"
   />
 
   <introduction
@@ -52,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__pink"
+    class="cta-banner__maroon"
   />
 
   </Page>

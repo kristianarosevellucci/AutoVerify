@@ -12,14 +12,14 @@
       textBlock1="Palladino Honda is having great success using AutoVerify tools. They now boast a whopping 3430 online reviews — 554 in Google, 174 in Facebook, and 2712 in the Reviewsii platform."
       inlineTestimonial2="“We’re so happy with the number of reviews we’ve gotten, and we love displaying them right on our website — why would you give a potential customer a reason to leave your site? Another great thing about AutoVerify Reviews is that everyone can use it, even our elderly customers that don’t have a Google or Facebook account,” explains Bourque. “Before AutoVerify Reviews, we’d miss out on reviews from customers like this because, let’s face it, no one is going to sign up for Google or Facebook just to leave an online review for a car dealer. But with this system, they can leave us feedback without having to go to any added trouble. This has helped spike the number of reviews we’re getting.”"
       textBlock2="They’ve also enjoyed the simplicity of the system as it frees up staff-time that used to be spent calling customers and hunting down reviews. Now it all happens automatically."
-      imageSrc="palladino-1.png"
+      imageSrc="case-studies/palladino-1.png"
       imageAlt="Screens"
     />
 
     <right-text-block class="bottom-block"
       textBlock1="While the dealership has also seen good results from the Credit  and Insurance  tools, the real winner for Palladino Honda has been AutoVerify Trade-in."
       inlineTestimonial2="“It’s been amazing,” says Bourque. “We’ve sold 62 cars that came in from Trade-in leads this year alone — and it’s only autumn!”."
-      imageSrc="palladino-2.png"
+      imageSrc="case-studies/palladino-2.png"
       imageAlt="Screens"
     />
 
@@ -41,13 +41,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="related-cases-wheaton.png"
+    imageSrc1="case-studies/related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="related-cases-palladino.png"
+    imageSrc2="case-studies/related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="related-cases-goauto.png"
+    imageSrc3="case-studies/related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="related-cases-carplace.png"
+    imageSrc4="case-studies/related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"
@@ -55,7 +55,6 @@
     goAuto="Go Auto Outlets"
     viewCaseStudy="View Case Study"
     />
-
     </Page>
 </template>
 

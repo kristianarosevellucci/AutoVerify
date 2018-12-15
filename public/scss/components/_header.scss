@@ -5,7 +5,7 @@ header {
   width: 100%;
   height: 100px;
   border-bottom: 1px solid transparent;
-  z-index: 100;
+  z-index: 200;
   transition: background-color 0.3s ease, border-color 0.3s ease;
   &.headerFixed {
     height: auto;
@@ -17,10 +17,9 @@ header {
     .header-cta-container {
       @media screen and (min-width: 768px){
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(0%);
       }
     }
-
     .logo {
       max-width: 7.875rem;
       max-height: 2.625rem;
@@ -37,12 +36,13 @@ header {
 
   .navigationOpen & {
     .menuToggle {
+      cursor: pointer;
       @media screen and (max-width: 768px){
         position: absolute;
         right: 0;
       }
       &::before {
-        content: "Close";
+        //content: "Close";
       }
 
       .menuIcon {
@@ -52,7 +52,9 @@ header {
             transform: rotate(45deg) translateY(-50%);
             margin-left: -1px;
           }
-
+          &:nth-child(2) {
+            display: none;
+          }
           &:last-child {
             top: 50%;
             transform: rotate(-45deg) translateY(-50%);
@@ -80,12 +82,12 @@ header {
   }
 
   & + main {
-      padding-top: 40px;
+      padding-top: 42px;
   }
 
   .header-container {
     position: relative;
-    padding: 25px;
+    padding: 30px 0;
     z-index: 80;
     transition: background-color 0.5s ease, padding 0.3s ease;
   }
@@ -113,6 +115,7 @@ header {
   }
 
   .menuToggle {
+    cursor: pointer;
     display: flex;
     align-items: center;
     background: none;
@@ -126,7 +129,7 @@ header {
       border: none;
     }
     &::before {
-      content: "Menu";
+      //content: "Menu";
       color: $black;
       font-size: 0.6875rem;
       line-height: 1.25rem;
@@ -136,17 +139,21 @@ header {
       position: relative;
       display: block;
       width: 1.25rem;
-      height: 0.625rem;
+      height: 0.925rem;
       span {
         position: absolute;
         left: 0;
         display: block;
-        background-color: $yellow;
+        background-color: $charcoal;
         width: 100%;
         height: 0.125rem;
         transition: top 0.3s ease, transform 0.3s ease;
         &:first-child {
           top: 0;
+        }
+        &:nth-child(2) {
+          top: 60%;
+          transform: translateY(-100%);
         }
         &:last-child {
           top: 100%;
@@ -159,6 +166,7 @@ header {
   .header-logo {
     position: absolute;
     left: 0;
+    top: 10px;
   }
 
   .navigation {
@@ -175,7 +183,7 @@ header {
   }
 
   .navigation-content {
-    padding: 100px 100px 0;
+    padding: 150px 100px 0;
     @media screen and (max-width: 768px){
       h2 {
         display: none;
@@ -214,4 +222,86 @@ header {
     }
   }
 
+}
+
+.lang-flag {
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.lang-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.lang-dropdown {
+  background: white;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-left: 15px;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.lang-dropdown-item {
+  padding: 15px 7px;
+  color: $charcoal;
+  display: block;
+}
+
+.dropdown-menu {
+  float: left;
+  padding: 0.25rem 0.5rem;
+  margin: 29px 0 0;
+  font-size: 1rem;
+  text-align: left;
+  list-style: none;
+  background-color: white;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.2em solid;
+    border-right: 0.2em solid transparent;
+    border-bottom: 0;
+    border-left: 0.2em solid transparent;
+}
+
+.navigation__dropdown-text {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.social-media {
+  margin: 10px 10px 10px 0;
+  height: 35px;
+  width: 35px;
+}
+
+#facebook, #instagram, #linkedin, #twitter {
+  height: 30px;
+  width: 30px;
+  transition: .25s ease;
+  &:hover {
+    #facebook-bg, #instagram-bg, #linkedin-bg, #twitter-bg {
+      fill: $blue;
+    }
+  }
+}
+
+#facebook-bg, #instagram-bg, #linkedin-bg, #twitter-bg {
+  fill: $charcoal;
+  transition: .5s ease;
 }

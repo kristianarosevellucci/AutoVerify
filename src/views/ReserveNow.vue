@@ -2,13 +2,13 @@
   <Page>
 
   <tools-hero
-    imageSrc="insurance-hero.png"
+    imageSrc="reservenow-hero.png"
     imageAlt="AutoVerify Reserve Now"
     toolSubtitle="AutoVerify"
     toolTitle="Reserve Now"
     toolDescription="Customer reserves the vehicle they want, you get the lead and the deposit."
     linkName="Watch Demo"
-    class="tools-hero--blue"
+    class="tools-hero--pink"
   />
 
   <introduction
@@ -16,7 +16,7 @@
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--reserve.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Reserve Now Helps You:"
     benefitsNumber1="01"
@@ -52,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__blue"
+    class="cta-banner__pink"
   />
 
   </Page>

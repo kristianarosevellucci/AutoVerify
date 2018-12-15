@@ -16,7 +16,7 @@
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--insurance.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Insurance Helps You:"
     benefitsNumber1="01"

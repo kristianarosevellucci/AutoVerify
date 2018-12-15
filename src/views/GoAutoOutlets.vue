@@ -10,7 +10,7 @@
 
     <left-text-block class="top-block"
       textBlock1="That’s why, when the Mobials team approached them to discuss their ground-breaking new digital retailing solutions, Casey Pilip, Director of Business Development for Go Auto Outlet’s three locations, was quick to give it a try. They integrated AutoVerify Trade-in and Credit widgets to generate highly-qualified leads and provide consumers with valuable information to help with their search. While all three tools were helpful, Go Auto was blown away by the near-instant success they saw with the Credit tool."
-      imageSrc="goauto-1.png"
+      imageSrc="case-studies/goauto-1.png"
       imageAlt="Go Auto Widgets"
     />
 
@@ -27,7 +27,7 @@
 
     <right-text-block class="pb-200"
       textBlock1="Because of the success Go Auto Outlets have had with AutoVerify Trade-in and Credit tools, Pilip is looking forward to experimenting with more digital retailing value-for-value tools like AutoVerify Insurance and Reserve Now. “Mobials is always creating new tools and innovating on the existing ones, so I love being one of the first one to leverage them all”."
-      imageSrc="goauto-2.png"
+      imageSrc="case-studies/goauto-2.png"
       imageAlt="Screens"
     />
 
@@ -39,13 +39,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="related-cases-wheaton.png"
+    imageSrc1="case-studies/related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="related-cases-palladino.png"
+    imageSrc2="case-studies/related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="related-cases-goauto.png"
+    imageSrc3="case-studies/related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="related-cases-carplace.png"
+    imageSrc4="case-studies/related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"

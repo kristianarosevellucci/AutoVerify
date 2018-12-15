@@ -14,7 +14,7 @@
       inlineTestimonial2=""
       textBlock2=""
       linkName=""
-      imageSrc="that-car-place-1.png"
+      imageSrc="case-studies/that-car-place-1.png"
       imageAlt="That Car Place Home"
     />
 
@@ -24,7 +24,7 @@
       inlineTestimonial2="“We’re all lazy now, we don’t have time to talk to dealers, visit them — you want to sit at home at 8 pm — believe it or not, most of our inquiries come in between 6 and 12 o’clock at night, emailing us asking about pricing or credit, and we’ve been able to answer their questions by giving them the tools they need on our website, and so they come in here KNOWING what to expect.”"
       textBlock2="That Car Place has taken their use of Mobials tools one step further and tailored specific social media campaigns using the tools as bait to generate leads. Their most recent campaign, focused on the Credit tool, generated 57 leads in 6 weeks."
       linkName=""
-      imageSrc="that-car-place-2.png"
+      imageSrc="case-studies/that-car-place-2.png"
       imageAlt="That Car Place Widgets"
     />
 
@@ -47,13 +47,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="related-cases-wheaton.png"
+    imageSrc1="case-studies/related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="related-cases-palladino.png"
+    imageSrc2="case-studies/related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="related-cases-goauto.png"
+    imageSrc3="case-studies/related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="related-cases-carplace.png"
+    imageSrc4="case-studies/related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"

@@ -8,7 +8,7 @@
     toolTitle="Total Loss"
     toolDescription="Earn quality leads from customers that have wrecked a car and need a new one."
     linkName="Watch Demo"
-    class="tools-hero--yellow"
+    class="tools-hero--blue"
   />
 
   <introduction
@@ -16,7 +16,7 @@
     />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--totalloss.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Total Loss Helps You:"
     benefitsNumber1="01"
@@ -52,7 +52,7 @@
   <tools-cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__yellow"
+    class="cta-banner__blue"
   />
 
   </Page>

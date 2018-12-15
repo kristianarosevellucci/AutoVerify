@@ -18,7 +18,7 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--reviews.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Reviews Helps You:"
     benefitsNumber1="01"

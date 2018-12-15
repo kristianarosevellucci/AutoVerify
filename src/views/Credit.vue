@@ -16,7 +16,7 @@
     />
 
     <tool-benefits
-      imageSrc="help-placeholder.png"
+      imageSrc="how-av-helps--credit.png"
       imageAlt="Screens"
       benefitsTitle="AutoVerify Credit Helps You:"
       benefitsNumber1="01"
@@ -44,7 +44,7 @@
     />
 
     <testimonials
-      quote="“The suite of products allows us to connect with our customers more easily and simplify their shopping experience!”"
+      quote="“Our dealership got Mobials a few months ago, and we already have over 400 reviews! We just recently turned on the new Google feature and were able to move our Google ranking in a positive direction. I love the new feature that allows me to manage everything through one platform.”"
       author="Susan Gubasta"
       authorJob="President, TADA, Dealer Principal, Mississauga Toyota"
     />

@@ -49,7 +49,7 @@
     authorJob="PBuckingham Toyota"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
     class="cta-banner__yellow"
@@ -69,7 +69,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -78,7 +77,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

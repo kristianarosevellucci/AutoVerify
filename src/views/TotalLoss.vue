@@ -49,7 +49,7 @@
     authorJob="Auto Worx"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
     class="cta-banner__blue"
@@ -60,18 +60,17 @@
 
 <script>
 // @ is an alias to /src
-import Page from './../components/page';
-import Introduction from './../components/introduction';
-import LeftTextBlock from './../components/left-text-block';
-import RightTextBlock from './../components/right-text-block';
-import Statistics from './../components/statistics';
-import CtaBanner from './../components/cta-banner';
-import MoreCaseStudies from './../components/more-case-studies';
-import ToolSummary from './../components/tool-summary';
-import ToolBenefits from './../components/tool-benefits';
-import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
-import Testimonials from './../components/tools/testimonials';
+  import Page from './../components/page';
+  import Introduction from './../components/introduction';
+  import LeftTextBlock from './../components/left-text-block';
+  import RightTextBlock from './../components/right-text-block';
+  import Statistics from './../components/statistics';
+  import CtaBanner from './../components/cta-banner';
+  import MoreCaseStudies from './../components/more-case-studies';
+  import ToolSummary from './../components/tool-summary';
+  import ToolBenefits from './../components/tool-benefits';
+  import ToolsHero from './../components/tools-hero';
+  import Testimonials from './../components/tools/testimonials';
 
 export default {
   name: "TotalLoss",
@@ -79,7 +78,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

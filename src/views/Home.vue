@@ -18,29 +18,6 @@
     </div>
   </section>
 
-  <section>
-    <div class="container-fluid">
-      <div class="row">
-        <div class='carousel-view'>
-          <transition-group
-            class='carousel'
-            tag="div">
-            <div
-              v-for="slide in slides"
-              class='slide'
-              :key="slide.id">
-              <h4> {{ slide.title }} </h4>
-            </div>
-          </transition-group>
-          <div class='carousel-controls'>
-            <button class='carousel-controls__button' @click="previous">prev</button>
-            <button class='carousel-controls__button' @click="next">next</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <logoCarousel
     introductionText="AutoVerify gives you tools that provide valuable information to consumers at every step of their purchase process. Earn valuable leads and be there for them from the beginning, so they choose you in the end."
   />
@@ -120,8 +97,8 @@ Earn valuable leads and be there for them from the beginning, so they choose you
       />
 
       <why-av-right class="bottom-block"
-      title="Test"
-      textBlock="“It’s been amazing,” says Bourque. “We’ve sold 62 cars that came in from Trade-in leads this year alone — and it’s only autumn!”."
+      title="You're not alone!"
+      textBlock="Our Customer Success team is here to help integrate AutoVerify with your site, make sure you’re comfortable using it and hold your hand through any challenges. We offer training and support to all of our customers. If you need us, we’re here."
       imageSrc="home/homepage-placeholder.png"
       imageAlt="Screens"
       />

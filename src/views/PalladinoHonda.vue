@@ -1,8 +1,14 @@
 <template>
     <Page>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <h1>Palladino Honda</h1>
-    </div>
+
+    <customers-hero
+      imageSrc="palladino-hero.png"
+      imageAlt="AutoVerify Insurance"
+      customersSubtitle="Franchised Dealer"
+      customersTitle="See how Palladino Honda uses AutoVerify to generate reviews and convert web traffic into sales."
+      customersDescription="Courtney Bourque, Director of Marketing, Palladino Honda"
+      class="customers-hero--maroon"
+    />
 
     <introduction
       introductionText="The team at Palladino Honda has always tried to stay ahead of the curve when it comes to industry trends and sales processes, so when they learned about the tools now included in the AutoVerify Suite, they were all-in."
@@ -41,13 +47,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="case-studies/related-cases-wheaton.png"
+    imageSrc1="related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="case-studies/related-cases-palladino.png"
+    imageSrc2="related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="case-studies/related-cases-goauto.png"
+    imageSrc3="related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="case-studies/related-cases-carplace.png"
+    imageSrc4="related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"
@@ -61,6 +67,7 @@
 <script>
 import Page from './../components/page';
 import Introduction from './../components/introduction';
+import CustomersHero from './../components/customers-hero';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
@@ -73,6 +80,7 @@ export default {
   components: {
     Footer,
     Introduction,
+    CustomersHero,
     LeftTextBlock,
     RightTextBlock,
     Statistics,

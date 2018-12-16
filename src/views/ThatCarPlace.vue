@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <h1>That Car Place</h1>
-    </div>
+  <Page>
+    <customers-hero
+      imageSrc="thatcarplace-hero.png"
+      imageAlt="AutoVerify Insurance"
+      customersSubtitle="Independant Dealer"
+      customersTitle="See how AutoVerify helps That Car Place be there for their customers 24/7."
+      customersDescription="Kal Idriss, Sales Manager, That Car Place"
+      class="customers-hero--yellow"
+    />
 
     <introduction
       introductionText="Kal looked to Mobials’ suite of tools to help him achieve his dream of ‘an Amazon-like experience’, where consumers could do all their pre-purchase research online, from reviews to values to credit approval, and eventually even complete the sale."
@@ -47,13 +52,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="case-studies/related-cases-wheaton.png"
+    imageSrc1="related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="case-studies/related-cases-palladino.png"
+    imageSrc2="related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="case-studies/related-cases-goauto.png"
+    imageSrc3="related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="case-studies/related-cases-carplace.png"
+    imageSrc4="related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"
@@ -61,12 +66,14 @@
     goAuto="Go Auto Outlets"
     viewCaseStudy="View Case Study"
     />
-  </div>
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
+import Page from './../components/page';
 import Introduction from './../components/introduction';
+import CustomersHero from './../components/customers-hero';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
@@ -79,11 +86,13 @@ export default {
   components: {
     Footer,
     Introduction,
+    CustomersHero,
     LeftTextBlock,
     RightTextBlock,
     Statistics,
     CtaBanner,
     MoreCaseStudies,
+    Page
   }
 };
 </script>

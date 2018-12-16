@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <h1>Go Auto Outlets</h1>
-    </div>
+  <Page>
+  <customers-hero
+    imageSrc="goauto-hero.png"
+    imageAlt="AutoVerify Insurance"
+    customersSubtitle="Dealer Group"
+    customersTitle="See how Go Auto Outlets uses AutoVerify to build a lead strategy that converts."
+    customersDescription="Casey Pilip, Director, Business Development, Go Auto Outlets"
+    class="customers-hero--pink"
+  />
 
     <introduction
       introductionText="AutoVerify tools have become a cornerstone of Go Auto Outlet’s lead generation strategy because they don’t just generate leads — they generate leads that convert into appointments and sales. "
@@ -39,13 +44,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="case-studies/related-cases-wheaton.png"
+    imageSrc1="related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="case-studies/related-cases-palladino.png"
+    imageSrc2="related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="case-studies/related-cases-goauto.png"
+    imageSrc3="related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="case-studies/related-cases-carplace.png"
+    imageSrc4="related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"
@@ -53,12 +58,14 @@
     goAuto="Go Auto Outlets"
     viewCaseStudy="View Case Study"
     />
-  </div>
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
+import Page from './../components/page';
 import Introduction from './../components/introduction';
+import CustomersHero from './../components/customers-hero';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
@@ -71,11 +78,13 @@ export default {
   components: {
     Footer,
     Introduction,
+    CustomersHero,
     LeftTextBlock,
     RightTextBlock,
     Statistics,
     CtaBanner,
     MoreCaseStudies,
+    Page
   }
 };
 </script>

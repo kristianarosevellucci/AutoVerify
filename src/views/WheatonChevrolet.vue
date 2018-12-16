@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <h1>Wheaton Chevrolet</h1>
-    </div>
+  <Page>
+    <customers-hero
+      imageSrc="wheaton-hero.png"
+      imageAlt="AutoVerify Insurance"
+      customersSubtitle="Franchised Dealer"
+      customersTitle="See how Wheaton Chevrolet uses AutoVerify to build a digital strategy that sells."
+      customersDescription="Jonathan Michell, Digital Marketing Coordinator, Wheaton Chevrolet"
+      class="customers-hero--blue"
+    />
 
     <introduction
       introductionText="In June 2017 the team at Wheaton Chevrolet in Regina, Saskatchewan, under the direction of Luke McLellan, knew that it was time to bring more focus to their digital strategy. They wanted an easy-to-use tool that provided real, measurable ROI while offering valuable information to consumers. Plus, they wanted consumers to access this tool from landing pages strategically chosen by the dealership. When they heard about AutoVerify’s Trade-in tool (then called Tradesii), they decided to give it a shot."
@@ -30,11 +35,11 @@
       imageAlt="Wheaton Chevrolet Trade In"
     />
 
-    <statistics
+    <statistics2
       statNumber1="21"
-      statNumber3="58"
+      statNumber2="58"
       statTitle1="Credit"
-      statTitle3="Trade-in"
+      statTitle2="Trade-in"
       statisticsSubtitle="So far, the results speak for themselves."
       statisticsTitle="In 6 months of use, That Car Place earned:"
     />
@@ -47,13 +52,13 @@
 
     <MoreCaseStudies
     sectionTitle="Read More Case Studies"
-    imageSrc1="case-studies/related-cases-wheaton.png"
+    imageSrc1="related-cases-wheaton.png"
     imageAlt1="Screens"
-    imageSrc2="case-studies/related-cases-palladino.png"
+    imageSrc2="related-cases-palladino.png"
     imageAlt2="Screens"
-    imageSrc3="case-studies/related-cases-goauto.png"
+    imageSrc3="related-cases-goauto.png"
     imageAlt3="Screens"
-    imageSrc4="case-studies/related-cases-carplace.png"
+    imageSrc4="related-cases-carplace.png"
     imageAlt4="Screens"
     wheatonChevrolet="Wheaton Chevrolet"
     thatCarPlace="That Car Place"
@@ -61,12 +66,14 @@
     goAuto="Go Auto Outlets"
     viewCaseStudy="View Case Study"
     />
-  </div>
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
+import Page from './../components/page';
 import Introduction from './../components/introduction';
+import CustomersHero from './../components/customers-hero';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
@@ -79,11 +86,13 @@ export default {
   components: {
     Footer,
     Introduction,
+    CustomersHero,
     LeftTextBlock,
     RightTextBlock,
     Statistics,
     CtaBanner,
     MoreCaseStudies,
+    Page
   }
 };
 </script>

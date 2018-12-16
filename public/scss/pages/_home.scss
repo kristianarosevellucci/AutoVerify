@@ -1,7 +1,7 @@
 .home-hero {
   background: $dust;
   padding: 0 100px;
-  margin-top: 25px;
+  margin-top: 42px;
   @media screen and (max-width: 768px){
     padding: 0;
   }
@@ -108,4 +108,18 @@
 .support-testimonial__position {
   position: absolute;
   bottom: 0;
+}
+
+.logo-carousel {
+  padding-top: 200px;
+}
+
+.logo-carousel__title {
+  padding-bottom: 100px;
+}
+
+.logo-carousel__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 125px;
 }

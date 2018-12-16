@@ -18,6 +18,33 @@
     </div>
   </section>
 
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class='carousel-view'>
+          <transition-group
+            class='carousel'
+            tag="div">
+            <div
+              v-for="slide in slides"
+              class='slide'
+              :key="slide.id">
+              <h4> {{ slide.title }} </h4>
+            </div>
+          </transition-group>
+          <div class='carousel-controls'>
+            <button class='carousel-controls__button' @click="previous">prev</button>
+            <button class='carousel-controls__button' @click="next">next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <logoCarousel
+    introductionText="AutoVerify gives you tools that provide valuable information to consumers at every step of their purchase process. Earn valuable leads and be there for them from the beginning, so they choose you in the end."
+  />
+
   <MoreCaseStudies
   sectionTitle="Read More Case Studies"
   imageSrc1="related-cases-wheaton.png"
@@ -136,6 +163,7 @@ Earn valuable leads and be there for them from the beginning, so they choose you
 // @ is an alias to /src
 import CtaBanner from './../components/cta-banner';
 import Introduction from './../components/introduction';
+import LogoCarousel from './../components/logo-carousel';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import WhyAvLeft from './../components/why-av-left';
@@ -150,6 +178,7 @@ export default {
     Introduction,
     LeftTextBlock,
     RightTextBlock,
+    LogoCarousel,
     MoreCaseStudies,
     SupportTestimonial,
     WhyAvLeft,

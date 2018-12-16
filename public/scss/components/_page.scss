@@ -30,11 +30,11 @@
 .page-transition-leave-active, .page-transition-enter-active {
     .line-transition {
         .line {
-          background: red;
+          background: $black;
             transition: transform 0.3s ease-in-out;
 
             &.pink-gradient {
-              background: pink;
+              background: $white;
                 transition-delay: 0.1s;
             }
 

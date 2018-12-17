@@ -16,7 +16,7 @@
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--insurance.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Insurance Helps You:"
     benefitsNumber1="01"
@@ -34,7 +34,7 @@
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-insurance.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
@@ -49,7 +49,7 @@
     authorJob="PBuckingham Toyota"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
     class="cta-banner__yellow"
@@ -69,7 +69,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -78,7 +77,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

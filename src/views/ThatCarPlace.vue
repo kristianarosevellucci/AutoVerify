@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <h1>That Car Place</h1>
-    </div>
+  <Page>
+    <customers-hero
+      imageSrc="thatcarplace-hero.png"
+      imageAlt="AutoVerify Insurance"
+      customersSubtitle="Independant Dealer"
+      customersTitle="See how AutoVerify helps That Car Place be there for their customers 24/7."
+      customersDescription="Kal Idriss, Sales Manager, That Car Place"
+      class="customers-hero--yellow"
+    />
 
     <introduction
       introductionText="Kal looked to Mobials’ suite of tools to help him achieve his dream of ‘an Amazon-like experience’, where consumers could do all their pre-purchase research online, from reviews to values to credit approval, and eventually even complete the sale."
@@ -14,7 +19,7 @@
       inlineTestimonial2=""
       textBlock2=""
       linkName=""
-      imageSrc="that-car-place-1.png"
+      imageSrc="case-studies/that-car-place-1.png"
       imageAlt="That Car Place Home"
     />
 
@@ -24,7 +29,7 @@
       inlineTestimonial2="“We’re all lazy now, we don’t have time to talk to dealers, visit them — you want to sit at home at 8 pm — believe it or not, most of our inquiries come in between 6 and 12 o’clock at night, emailing us asking about pricing or credit, and we’ve been able to answer their questions by giving them the tools they need on our website, and so they come in here KNOWING what to expect.”"
       textBlock2="That Car Place has taken their use of Mobials tools one step further and tailored specific social media campaigns using the tools as bait to generate leads. Their most recent campaign, focused on the Credit tool, generated 57 leads in 6 weeks."
       linkName=""
-      imageSrc="that-car-place-2.png"
+      imageSrc="case-studies/that-car-place-2.png"
       imageAlt="That Car Place Widgets"
     />
 
@@ -61,12 +66,14 @@
     goAuto="Go Auto Outlets"
     viewCaseStudy="View Case Study"
     />
-  </div>
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
+import Page from './../components/page';
 import Introduction from './../components/introduction';
+import CustomersHero from './../components/customers-hero';
 import LeftTextBlock from './../components/left-text-block';
 import RightTextBlock from './../components/right-text-block';
 import Statistics from './../components/statistics';
@@ -79,11 +86,13 @@ export default {
   components: {
     Footer,
     Introduction,
+    CustomersHero,
     LeftTextBlock,
     RightTextBlock,
     Statistics,
     CtaBanner,
     MoreCaseStudies,
+    Page
   }
 };
 </script>

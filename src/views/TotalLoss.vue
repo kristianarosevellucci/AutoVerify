@@ -8,7 +8,7 @@
     toolTitle="Total Loss"
     toolDescription="Earn quality leads from customers that have wrecked a car and need a new one."
     linkName="Watch Demo"
-    class="tools-hero--yellow"
+    class="tools-hero--blue"
   />
 
   <introduction
@@ -16,11 +16,11 @@
     />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--totalloss.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Total Loss Helps You:"
     benefitsNumber1="01"
-    benefitsTitle1="High-Quality Leads"
+    benefitsTitle1="Earn High-Quality Leads"
     benefitsText1="A person with a vehicle damaged beyond repair needs a replacement vehicle, and they need it now. Total Loss Reports give you a high-converting lead that is ready to buy. "
     benefitsNumber2="02"
     benefitsTitle2="Build Trust"
@@ -29,18 +29,18 @@
     benefitsTitle3="Get Them More Money"
     benefitsText3="Help customers get more for their wrecked car, so they turn to you for a replacement."
     benefitsNumber4="04"
-    benefitsTitle4="Optimized for Mobile"
+    benefitsTitle4="Optimize for Mobile"
     benefitsText4="AutoVerify tools are designed and optimized for mobile, so when your customers get their information, it’s formatted to fit the device they’re using."
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-totalloss.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
     bullet1="Customer wrecks their car and receives a settlement offer"
     bullet2="They receive a Total Loss Report"
-    bullet3="They use report in settlement negotiations and get more money"
+    bullet3="They use the report to improve their insurance settlement."
   />
 
   <testimonials
@@ -49,10 +49,10 @@
     authorJob="Auto Worx"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__yellow"
+    class="cta-banner__blue"
   />
 
   </Page>
@@ -60,18 +60,17 @@
 
 <script>
 // @ is an alias to /src
-import Page from './../components/page';
-import Introduction from './../components/introduction';
-import LeftTextBlock from './../components/left-text-block';
-import RightTextBlock from './../components/right-text-block';
-import Statistics from './../components/statistics';
-import CtaBanner from './../components/cta-banner';
-import MoreCaseStudies from './../components/more-case-studies';
-import ToolSummary from './../components/tool-summary';
-import ToolBenefits from './../components/tool-benefits';
-import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
-import Testimonials from './../components/tools/testimonials';
+  import Page from './../components/page';
+  import Introduction from './../components/introduction';
+  import LeftTextBlock from './../components/left-text-block';
+  import RightTextBlock from './../components/right-text-block';
+  import Statistics from './../components/statistics';
+  import CtaBanner from './../components/cta-banner';
+  import MoreCaseStudies from './../components/more-case-studies';
+  import ToolSummary from './../components/tool-summary';
+  import ToolBenefits from './../components/tool-benefits';
+  import ToolsHero from './../components/tools-hero';
+  import Testimonials from './../components/tools/testimonials';
 
 export default {
   name: "TotalLoss",
@@ -79,7 +78,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

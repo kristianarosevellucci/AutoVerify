@@ -1,7 +1,7 @@
 <template>
 
     <section class="tool-benefits">
-      <div class="container-fluid">
+      <div class="container-fluid no-padding">
         <div class="row">
           <div class="col-md-3">
             <img

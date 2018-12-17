@@ -1,298 +1,64 @@
 <template>
-  <div>
-    <navigation />
-    <div
-      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
-    >
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Contact Punny headline</h1>
-        <p class="lead font-weight-normal">
-          And an even wittier subheading to boot. Jumpstart your marketing
-          efforts with this example based on Apple's marketing pages.
-        </p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div
-        class="product-device product-device-2 box-shadow d-none d-md-block"
-      ></div>
-    </div>
+  <Page>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 contact-form">
+            <h2>Get In Touch</h2>
+            <p class="contact-lead">Have questions? We're here to help. Fill out the form below and we'll get back to you shortly.</p>
+            <div class="form-container">
+              <div class="form-item">
+                <label for="" class="form-label">First & Last Name:</label>
+                <input type="text" name="" value="" class="form-field" placeholder="First Last">
+              </div>
+              <div class="form-item">
+                <label for="" class="form-label">Email Address:</label>
+                <input type="text" name="" value="" class="form-field" placeholder="email@email.com">
+              </div>
+              <div class="form-item">
+                <label for="" class="form-label">Details About Your Reqeust:</label>
+                <textarea name="name"class="form-field form-field--message" placeholder="email@email.com"></textarea>
+              </div>
+            </div>
+            <a href="#" class="btn-primary contact-btn">Submit</a>
+          </div>
+          <div class="col-md-7 offset-lg-1 col-lg-7">
+            <div class="row">
+              <div class="offset-md-1 col-md-11">
+                <p>google map here</p>
+              </div>
+            </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
-
-    <footer class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="d-block mb-2"
-          >
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
-            <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
-            <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
-            <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
-            <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
-            <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
-          </svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
+          </div>
         </div>
       </div>
-    </footer>
-  </div>
+  </Page>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navigation from './../components/navigation'
+import Page from './../components/page';
+import Leadership from './../components/leadership';
+import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 
 export default {
   name: "contact",
   components: {
-    Navigation
+    Page,
+    ToolsCtaBanner,
+    Leadership
   }
 };
 </script>
 
 <style>
-.container {
-  max-width: 960px;
-}
-
-/*
-   * Custom translucent site header
-   */
-
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color 0.15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-/*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
-/*
-   * Extra utilities
-   */
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
+  .divider {
+    height: 5px;
+    width: 50px;
+    background: #E6E6E6;
+    margin: 30px 0;
+    @media screen and (max-width: 768px){
+      display: block;
+      margin: 30px auto;
+    }
   }
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
 </style>

@@ -2,21 +2,21 @@
   <Page>
 
   <tools-hero
-    imageSrc="insurance-hero.png"
+    imageSrc="reservenow-hero.png"
     imageAlt="AutoVerify Reserve Now"
     toolSubtitle="AutoVerify"
     toolTitle="Reserve Now"
     toolDescription="Customer reserves the vehicle they want, you get the lead and the deposit."
     linkName="Watch Demo"
-    class="tools-hero--blue"
+    class="tools-hero--pink"
   />
 
   <introduction
-    introductionText="The average car buyer does 18+ hours of online research. When they know what they want, make sure they can get it, by allowing them to reserve the vehicle right on your site.  "
+    introductionText="The average car buyer does 18+ hours of online research. When they know what they want, make sure they can get it, by allowing them to reserve the vehicle right on your site."
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--reserve.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Reserve Now Helps You:"
     benefitsNumber1="01"
@@ -34,7 +34,7 @@
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-reservenow.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
@@ -49,10 +49,10 @@
     authorJob="PBuckingham Toyota"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__blue"
+    class="cta-banner__pink"
   />
 
   </Page>
@@ -70,7 +70,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -79,7 +78,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

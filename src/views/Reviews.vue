@@ -18,7 +18,7 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
   />
 
   <tool-benefits
-    imageSrc="help-placeholder.png"
+    imageSrc="how-av-helps--reviews.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Reviews Helps You:"
     benefitsNumber1="01"
@@ -36,13 +36,15 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-reviews.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
-    bullet1="Option to choose which sites you want reviews on"
+    bullet1="Option to get reviews on Google and Facebook"
     bullet2="Simple DMS and CRM integrations"
     bullet3="Automatic review requests via text or email"
+    bullet4="Notifications you can customize"
+    bullet5="Reduction in cost-per-review— save staffing costs"
   />
 
   <testimonials
@@ -51,7 +53,7 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
     authorJob="Tom Smith Chevrolet Buick GMC"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
     class="cta-banner__pink"
@@ -72,7 +74,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -81,7 +82,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

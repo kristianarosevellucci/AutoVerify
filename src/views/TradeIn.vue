@@ -8,7 +8,7 @@
     toolTitle="Trade-in"
     toolDescription="More leads. Better leads. Even on mobile."
     linkName="Watch Demo"
-    class="tools-hero--pink"
+    class="tools-hero--maroon"
   />
 
   <introduction
@@ -19,22 +19,22 @@
     imageSrc="help-placeholder.png"
     imageAlt="Screens"
     benefitsTitle="AutoVerify Trade-in Helps You:"
-    benefitsNumber1="01"
-    benefitsTitle1="Trade-ins + Credit apps = win-win"
-    benefitsText1="A trade-in value tool is the highest lead-generating tool on your site. AutoVerify Trade-in lets you generate credit-qualified leads and credit applications from consumers looking for trade-in values."
-    benefitsNumber2="02"
-    benefitsTitle2="Satisfy Customers"
-    benefitsText2="Create a user-friendly experience with the info they want in the format they want it. No waiting, no follow-ups — just a simple, mobile-optimized value range delivered on command."
-    benefitsNumber3="03"
-    benefitsTitle3="Integrate Easily"
-    benefitsText3="Integrates seamlessly with your website and online listings. Maximize the value of your VDPs by loading them with info that solves uncertainty about the purchase process."
     benefitsNumber4="04"
-    benefitsTitle4="Be Chosen"
-    benefitsText4="Differentiate yourself with transparent info that answers your customer's questions without trying to sell. Earn the lead with valuable information, then nurture it until they’re ready to buy."
+    benefitsTitle4="Trade-ins + Credit apps = win-win"
+    benefitsText4="A trade-in value tool is the highest lead-generating tool on your site. AutoVerify Trade-in lets you generate credit-qualified leads and credit applications from consumers looking for trade-in values."
+    benefitsNumber1="01"
+    benefitsTitle1="Satisfy Customers"
+    benefitsText1="Create a user-friendly experience with the info they want in the format they want it. No waiting, no follow-ups — just a simple, mobile-optimized value range delivered on command."
+    benefitsNumber2="02"
+    benefitsTitle2="Integrate Easily"
+    benefitsText2="Integrates seamlessly with your website and online listings. Maximize the value of your VDPs by loading them with info that solves uncertainty about the purchase process."
+    benefitsNumber3="03"
+    benefitsTitle3="Be Chosen"
+    benefitsText3="Differentiate yourself with transparent info that answers your customer's questions without trying to sell. Earn the lead with valuable information, then nurture it until they’re ready to buy."
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-tradein.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
@@ -49,10 +49,10 @@
     authorJob="Auto Worx"
   />
 
-  <tools-cta-banner
+  <cta-banner
     ctaText="Want to see it in action?"
     linkName="Watch Demo"
-    class="cta-banner__pink"
+    class="cta-banner__maroon"
   />
 
   </Page>
@@ -70,7 +70,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -79,7 +78,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

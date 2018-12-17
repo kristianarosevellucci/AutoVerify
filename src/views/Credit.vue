@@ -16,27 +16,27 @@
     />
 
     <tool-benefits
-      imageSrc="help-placeholder.png"
+      imageSrc="how-av-helps--credit.png"
       imageAlt="Screens"
       benefitsTitle="AutoVerify Credit Helps You:"
       benefitsNumber1="01"
-      benefitsTitle1="Slash Costs"
-      benefitsText1="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsTitle1="Simplify the Process"
+      benefitsText1="AutoVerify Credit tool provides a free TransUnion credit profile, doesn’t affect credit ratings, calculates monthly payments and lets people apply online easily — without any long, complicated forms."
       benefitsNumber2="02"
-      benefitsTitle2="Slash Costs"
-      benefitsText2="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsTitle2="Valuable Qualified Leads"
+      benefitsText2="Dealers love AutoVerify Credit because it delivers high-converting, qualified leads. On average, 30% of Credit leads convert to sales."
       benefitsNumber3="03"
-      benefitsTitle3="Slash Costs"
-      benefitsText3="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsTitle3="Optimize for Mobile"
+      benefitsText3="Easily integrated with your website, Credit is optimized for mobile so it delivers consumers the information they’re looking for, in whichever format they want it."
       benefitsNumber4="04"
-      benefitsTitle4="Slash Costs"
-      benefitsText4="You spend a small fortune on history reports every month. Accident Check lets you stay transparent while avoiding the expense of running reports on clean vehicles. Run your VINs through our system to discover which vehicles have accident history."
+      benefitsTitle4="Save Time"
+      benefitsText4="Credit helps you qualify leads and eliminate wasted staff time by setting up test drives on the vehicles the customer can afford, not the ones they can't."
     />
 
     <tool-summary
-      imageSrc="reports-placeholder.png"
+      imageSrc="reports-credit.png"
       imageAlt="Screens"
-      summaryTitle="It's true-- there's more to a history report than accident data. But..."
+      summaryTitle="Get valuable, qualified leads."
       summaryText="Why are you paying for information that's available for free?"
       bullet1="Recall status is available free online"
       bullet2="Odometer rollbacks can be detected by your service department"
@@ -44,12 +44,12 @@
     />
 
     <testimonials
-      quote="“The suite of products allows us to connect with our customers more easily and simplify their shopping experience!”"
+      quote="“Our dealership got Mobials a few months ago, and we already have over 400 reviews! We just recently turned on the new Google feature and were able to move our Google ranking in a positive direction. I love the new feature that allows me to manage everything through one platform.”"
       author="Susan Gubasta"
       authorJob="President, TADA, Dealer Principal, Mississauga Toyota"
     />
 
-    <tools-cta-banner
+    <cta-banner
       ctaText="Want to see it in action?"
       linkName="Watch Demo"
       class="cta-banner__maroon"
@@ -70,7 +70,6 @@ import MoreCaseStudies from './../components/more-case-studies';
 import ToolSummary from './../components/tool-summary';
 import ToolBenefits from './../components/tool-benefits';
 import ToolsHero from './../components/tools-hero';
-import ToolsCtaBanner from './../components/tools/tools-cta-banner';
 import Testimonials from './../components/tools/testimonials';
 
 export default {
@@ -79,7 +78,6 @@ export default {
     Introduction,
     CtaBanner,
     Page,
-    ToolsCtaBanner,
     Testimonials,
     ToolSummary,
     ToolBenefits,

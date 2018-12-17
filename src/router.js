@@ -13,6 +13,8 @@ import ThatCarPlace from "./views/ThatCarPlace.vue";
 import WheatonChevrolet from "./views/WheatonChevrolet.vue";
 import GoAutoOutlets from "./views/GoAutoOutlets.vue";
 import PalladinoHonda from "./views/PalladinoHonda.vue";
+import About from "./views/About.vue";
+import Privacy from "./views/Privacy.vue";
 
 
 Vue.use(Router);
@@ -83,6 +85,16 @@ export default new Router({
       path: "/customers/palladino-honda",
       name: "palladino-honda",
       component: PalladinoHonda
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: About
+    },
+    {
+      path: "/privacy-policy",
+      name: "privacy",
+      component: Privacy
     },
   ]
 });

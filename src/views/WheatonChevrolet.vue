@@ -28,7 +28,7 @@
       imageAlt="Wheaton Sales People"
     />
 
-    <left-text-block class="bottom-block"
+    <left-text-block class="bottom-block pb-200"
       textBlock1="When Mobials launched its Credit tool, trying it out was a no-brainer. Credit leads tend to convert significantly higher into sales, so when the numbers started rolling in and they were averaging 21 Credit leads per month, it confirmed that their decision was a good one."
       inlineTestimonial2="“Credit leads are especially valuable because, when the tool is fully utilized by a customer, they’ve already made the conscious decision to buy. When one of those comes in, it’s usually just a matter of picking out the colour of their new vehicle! AutoVerify tools have been enormously successful for us as a whole, and we would now consider a website incomplete with them.”"
       imageSrc="case-studies/wheaton-2.png"

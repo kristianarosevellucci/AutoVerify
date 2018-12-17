@@ -36,13 +36,15 @@ Car shoppers are 90% more likely to visit your website and 5.3 times more likely
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-reviews.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
-    bullet1="Option to choose which sites you want reviews on"
+    bullet1="Option to get reviews on Google and Facebook"
     bullet2="Simple DMS and CRM integrations"
     bullet3="Automatic review requests via text or email"
+    bullet4="Notifications you can customize"
+    bullet5="Reduction in cost-per-review— save staffing costs"
   />
 
   <testimonials

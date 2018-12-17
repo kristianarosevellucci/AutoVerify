@@ -167,6 +167,10 @@ header {
     position: absolute;
     left: 0;
     top: 10px;
+    @media screen and (max-width: 768px){
+      left: 10px;
+      top: -15px;
+    }
   }
 
   .navigation {
@@ -185,9 +189,26 @@ header {
   .navigation-content {
     padding: 150px 100px 0;
     @media screen and (max-width: 768px){
+      padding: 150px 50px 0;
       h2 {
         display: none;
       }
+    }
+  }
+
+  .mobile-demo-btn {
+    display: none;
+    text-align: center;
+    max-width: 200px;
+    margin: 50px 0;
+    @media screen and (max-width: 768px){
+      display: block;
+    }
+  }
+
+  .header-btn {
+    @media screen and (max-width: 768px){
+      display: none;
     }
   }
 
@@ -243,12 +264,19 @@ header {
   &:focus {
     outline: 0;
   }
+  @media screen and (max-width: 768px){
+    display: none;
+  }
 }
 
 .lang-dropdown-item {
   padding: 15px 7px;
   color: $charcoal;
   display: block;
+  &:hover {
+    color: $blue;
+    text-decoration: none;  
+  }
 }
 
 .dropdown-menu {

@@ -20,7 +20,7 @@
     imageAlt="Screens"
     benefitsTitle="AutoVerify Total Loss Helps You:"
     benefitsNumber1="01"
-    benefitsTitle1="High-Quality Leads"
+    benefitsTitle1="Earn High-Quality Leads"
     benefitsText1="A person with a vehicle damaged beyond repair needs a replacement vehicle, and they need it now. Total Loss Reports give you a high-converting lead that is ready to buy. "
     benefitsNumber2="02"
     benefitsTitle2="Build Trust"
@@ -29,18 +29,18 @@
     benefitsTitle3="Get Them More Money"
     benefitsText3="Help customers get more for their wrecked car, so they turn to you for a replacement."
     benefitsNumber4="04"
-    benefitsTitle4="Optimized for Mobile"
+    benefitsTitle4="Optimize for Mobile"
     benefitsText4="AutoVerify tools are designed and optimized for mobile, so when your customers get their information, it’s formatted to fit the device they’re using."
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-totalloss.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "
     bullet1="Customer wrecks their car and receives a settlement offer"
     bullet2="They receive a Total Loss Report"
-    bullet3="They use report in settlement negotiations and get more money"
+    bullet3="They use the report to improve their insurance settlement."
   />
 
   <testimonials

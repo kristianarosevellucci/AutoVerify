@@ -12,7 +12,7 @@
   />
 
   <introduction
-    introductionText="The average car buyer does 18+ hours of online research. When they know what they want, make sure they can get it, by allowing them to reserve the vehicle right on your site.  "
+    introductionText="The average car buyer does 18+ hours of online research. When they know what they want, make sure they can get it, by allowing them to reserve the vehicle right on your site."
   />
 
   <tool-benefits
@@ -34,7 +34,7 @@
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-reservenow.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "

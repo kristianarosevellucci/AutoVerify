@@ -34,7 +34,7 @@
   />
 
   <tool-summary
-    imageSrc="reports-placeholder.png"
+    imageSrc="reports-insurance.png"
     imageAlt="Screens"
     summaryTitle="It's true-- there's more to a history report than accident data. But..."
     summaryText=" "

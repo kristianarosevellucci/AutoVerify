@@ -15,6 +15,8 @@
             <li>{{bullet1}}</li>
             <li>{{bullet2}}</li>
             <li>{{bullet3}}</li>
+            <li>{{bullet4}}</li>
+            <li>{{bullet5}}</li>
           </ul>
           <p>{{summaryText}}</p>
         </div>
@@ -52,6 +54,14 @@
         required: true
       },
       bullet3: {
+        type: String,
+        required: true
+      },
+      bullet4: {
+        type: String,
+        required: true
+      },
+      bullet5: {
         type: String,
         required: true
       },

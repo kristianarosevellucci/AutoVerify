@@ -30,7 +30,7 @@
       statisticsTitle="Go Auto Outlets Recieved:"
     />
 
-    <right-text-block class="pb-200"
+    <right-text-block class="pb-200 pt-200"
       textBlock1="Because of the success Go Auto Outlets have had with AutoVerify Trade-in and Credit tools, Pilip is looking forward to experimenting with more digital retailing value-for-value tools like AutoVerify Insurance and Reserve Now. “Mobials is always creating new tools and innovating on the existing ones, so I love being one of the first one to leverage them all”."
       imageSrc="case-studies/goauto-2.png"
       imageAlt="Screens"
@@ -89,4 +89,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>

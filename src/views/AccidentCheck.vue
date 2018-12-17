@@ -2,7 +2,7 @@
   <Page>
 
   <tools-hero
-    imageSrc="tradein-hero.png"
+    imageSrc="accidentcheck-hero.png"
     imageAlt="AutoVerify Trade-in"
     toolSubtitle="AutoVerify"
     toolTitle="Accident Check"
